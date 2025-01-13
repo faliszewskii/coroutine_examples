@@ -3,6 +3,9 @@
 #include <stdexcept>
 #include <thread>
 
+//
+// https://en.cppreference.com/w/cpp/language/coroutines
+//
 
 auto start_async_awaitable(std::jthread& out)
 {
